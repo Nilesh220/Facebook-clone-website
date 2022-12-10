@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background-color: #efefef;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1876f2;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.nav-user-icon img{
+    width: 40px;
+    cursor: pointer;
+}
+.Search-box{
+    background-color: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.Search-box img{
+    width: 18px;
+}
+.Search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.nav-user-icon{
+    margin-left: 30px;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    height: 100vh;
+}
+.left-sidebar{
+ 
+    flex-basis: 25%;
+    position: sticky;
+    top: 72px;
+    align-self: flex-start;
+   
+}
+.right-sidebar{
+   
+    flex-basis: 25%;
+    position: sticky;
+    top: 72px;
+    align-self: flex-start;
+   
+}
+.main-content{
+    flex-basis: 47%;
+}
+.imp-links a, .shortcut-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.imp-links a:last-child{
+    color: #1876f2 ;
+   
+}
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+.shortcut-links a img{
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.shortcut-links p{
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+}
