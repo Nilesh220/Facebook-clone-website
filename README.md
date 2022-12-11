@@ -1,5 +1,6 @@
 
 # Facebook-Clone-Website
+<img align='right' src='https://github.com/Nilesh220/Facebook-clone-website/blob/main/images/Git%20hub.png' width='200"'>
 
 This is a repository for a website that replicates the features of the popular social media website, Facebook. The website uses HTML, CSS, to implement the various features of the website, such as a user login system, user profile page, news feed, messaging system, and more.  This website can be used as a base for any other projects that require similar features. I will be uploading it in part
 
